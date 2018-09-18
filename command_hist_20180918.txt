@@ -1,0 +1,313 @@
+ls
+cd Documents/
+ls
+cd account/
+vi
+ls
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install pyenv
+brew install pyenv-virtualenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+source .bash_profile
+pyenv install 3.6.0
+pyenv install anaconda3-4.3.1
+pyenv global anaconda3-4.3.1
+conda create --name py3.6.0 python=3.6.0
+pip install jupyter
+pip install "ipython[notebook]"
+pip install --upgrade pip
+mkdir JupyterNotebook
+cd JupyterNotebook/
+jupyter notebook
+curl -s https://packagecloud.io/install/repositories/abeja/platform-public/script.python.sh | bash
+pip install abejacli
+curl http://www.example.com/
+abeja configure
+ls
+cd Downloads/
+ls
+ls |grep d*
+ls |grep c*
+ls
+ls |grep c*
+cd cats_dogs
+ls
+tree
+brew list
+brew search tree
+brew install tree
+tree
+tree | grep 1
+ls
+cd 1/
+ls
+abeja datalake upload --channel_id 1403772409199 --meta-data label:1 --recursive .
+pwd
+abeja datalake upload --channel_id 1403772409199 --meta-data label:1 --recursive .
+ls
+cd Downloads/
+ls
+cd cats_dogs
+ls
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive .
+ls
+cd 1/
+ls
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive .
+curl https://api.abeja.io/organizations/{1200123565071}/channels/{1517786429892}
+brew install j1
+brew install jq
+curl https://api.abeja.io/organizations/{1200123565071}/channels/{1517786429892}
+curl https://api.abeja.io/organizations/{1200123565071}/channels/{1517786429892} |jq
+jq
+curl https://api.abeja.io/organizations/{1200123565071}/channels/{1517786429892}v
+curl -X GET http://test-server/api?param1=abc
+curl GET /organizations/{1200123565071}/channels
+curl GET /organizations/{1200123565071}/channels
+cd
+pwd
+ls
+cd Downloads/
+ls
+cat openapi.yaml 
+cat openapi.yaml 
+curl GET https://api.abeja.io/organizations/{1200123565071}/channels/{1517786429892}
+curl https://api.abeja.io/organizations/1200123565071/channels/1517786429892
+curl https://api.abeja.io/organizations/1200123565071/channels/1517786429892
+curl https://api.abeja.io/organizations/1200123565071/channels
+curl -v https://api.abeja.io/organizations/1200123565071/channels
+curl -x" https://api.abeja.io/organizations/1200123565071/channels
+:
+;
+end
+q
+exit
+curl -X GET "https://api.abeja.io/organizations/1200123565071/channels/1517786429892"
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels/1517786429892
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels/
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+abeja configure
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+abeja datalake create-channel --name "cats_and_dogs" --description "this is image channel of cats adn dogs"
+abeja datalake create-channel --name "cats_and_dogs" --description "this is image channel of cats adn dogs"
+abeja configure
+ls
+cd cat
+cd cats_dogs
+ls
+cd 1/
+abeja datalake create-channel --name "cats_and_dogs" --description "this is image channel of cats adn dogs"
+abeja datalake create-channel --name "cats_and_dogs2" --description "this is image channel of cats adn dogs"
+abeja datalake create-channel --name "cats_and_dogs524" --description "this is image channel of cats adn dogs"
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+curl https://api.abeja.io/organizations/1200123565071/channels |jq
+curl https://api.abeja.io/organizations/{1200123565071}/channels |jq
+curl https://api.abeja.io/organizations/{1200123565071}/channels
+curl https://api.abeja.io/organizations/{1200123565071}/channels
+curl --user user-1510811272554
+curl --user user-1510811272554
+curl --user user-1510811272554
+curl --user user-1510811272554
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/channels/
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/channels/1517786429892
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/channels/1517786429892
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/channels/1517786429892|jq
+curl -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+curl -X GET https://api.abeja.io/channels/1517786429892 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/organizations/1200123565071 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 https://api.abeja.io/organizations/1200123565071/channels |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1517786429892 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X DELETE https://api.abeja.io/organizations/1200123565071/channels/1517786429892 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1517786429892 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1518614825417 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X DELETE https://api.abeja.io/organizations/1200123565071/channels/1518614825417 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1518614825417 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X G https://api.abeja.io/organizations/1200123565071/channels/1518614825417 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X POST https://api.abeja.io/organizations/1200123565071/ --data 'name=yoshida_test' |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X POST https://api.abeja.io/organizations/1200123565071/|jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XPOST https://api.abeja.io/organizations/1200123565071/ --data 'name=yoshida_test' |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XPOST https://api.abeja.io/organizations/1200123565071/ --data 'name=yoshida_test&description=test' |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XPOST https://api.abeja.io/organizations/1200123565071/channels --data 'name=yoshida_test&description=test' |jq
+pwd
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive .
+pwd
+ls
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive
+ls
+pwd
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive.
+abeja datalake upload --channel_id 1517786429892 --meta-data label:1 --recursive .
+cd /etc
+ls
+ls | grep va
+ls | grep va
+ls | grep var
+cd /var
+ls
+cd log
+ls
+cd ~/Downloads
+ls
+cd cats_dogs
+ls
+cd 1/
+ls
+abeja datalake upload --channel_id 1518639908298 --meta-data label:1 --recursive .
+cd..
+ls
+ls
+cd ..
+ls
+cd 2/
+ls
+abeja datalake upload --channel_id 1518639908298 --meta-data label:2 --recursive .
+ls |grep *336286
+ls |grep *336286*
+ls |grep *
+ls
+ls | grep
+ls | grep *
+ls |grep
+ls |grep *
+ls |grep 000000514125.jpg
+ls |grep 000000336286.jpg
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1518639908298/dataources |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1518639908298/datasources |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/organizations/1200123565071/channels/1518639908298 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq | grep "x-abeja-meta-label": "1",
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |grep "x-abeja-meta-label": "1",
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq
+ls
+pws
+pwd
+abeja datalake upload --channel_id 1518639908298 --meta-data label:2 --recursive .
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq
+ls -1 | wc -l
+cd ..
+ls
+cd 1/
+ls -1 | wc -l
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq |grep 000000295017.jpg
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |grep 000000295017.jpg
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |grep 000000225398.jpg
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |jq |grep 000000225398.jpg
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -X GET https://api.abeja.io/channels/1518639908298 |grep 000000225398.jpg
+pwd
+cd..
+ls
+cd ..
+ls
+vi cats_dogs_dataset.json
+ls
+cat cats_dogs_dataset.json 
+clear
+cat cats_dogs_dataset.json 
+abeja dataset create-dataset --name cats_dogs_yoshida --type classification --props cats_dogs_dataset.json
+abeja dataset import-from-datalake --channel_id 1518639908298 --dataset_id 1518697464017
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522911440833
+}
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522911440833}
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522911440833}
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522927600304} 
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522927600304} |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522927600304} |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XDELETE https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522927600304} |jq
+curl --user user-1510811272554:897d32ccad60d68b43f10b3096c55836c8491783 -XGET https://api.abeja.io/organizations/{1200123565071}/training/definitions/{cats_dog_detector_yoshida}/jobs/{1522927600304} |jq
+cat
+ls
+cd JupyterNotebook/
+ls
+ls -l
+ipython notebook
+jupyter lab
+piop 
+pip install jupyterlab
+jupyter lab
+jupyter lab
+python --version]
+python --version
+conta install jupyterlab
+conda install jupyterlab
+pip unins
+pip uninstall jupyter lab
+pip uninstall jupyterlab
+conda install jupyter
+conda install jupyterlab
+jupyter lab
+git clone https://github.com/abeja-inc/paas_proj_olympus.git
+git clone https://github.com/abeja-inc/paas_proj_olympus.git
+pwd
+ks
+ls
+cd paas_proj_olympus/
+ls
+conda env create
+source activate olympus
+source activate olymp
+which conda
+cd ~/
+ls
+cd ~
+ls
+pwd
+cd paas_proj_olympus/
+ls
+cd JupyterNotebook/
+ls
+ls -;l
+ls -l
+find / -name id_rsa
+ssh github
+git --version
+cd ~/
+ls
+pwd
+ls -l
+ls -a
+ssh-keygen -t rsa -b 4096 -C "For github takuroyoshida"
+ls
+cd .ssh
+ls
+ch mod 600 id_rsa_github
+chmod 600 id_rsa_github
+chmod 600 id_rsa
+ls -la
+vim ~/.ssh/config
+ls
+pwd
+ls
+rm id_rsa
+ls
+rm id_rsa.pub 
+ls
+ssh-keygen -t rsa -b 4096 -C "For github takuroyoshida"
+ls
+chmod 600 id_rsa_github
+ls -la
+cat id_rsa_github.pub 
+vim id_rsa_github.pub 
+git clone git@github.com:takuroyoshida/ownstudy.git
+git clone https://github.com/takuroyoshida/ownstudy.git
+ls
+git clone https://github.com/takuroyoshida/ownstudy.git
+ls
+cd ownstudy/
+ls
+git branch
+cd ..
+ls
+git branch
+cd ownstudy/
+ls
+ls -a
+history
+history -w command_hist_20180918.txt
